@@ -31,6 +31,6 @@ public class Main {
         ukraine.addCity(dnipro);
         ukraine.addCity(lviv);
 
-        System.out.println(kyiv);
+        System.out.println(ukraine);
     }
 }
