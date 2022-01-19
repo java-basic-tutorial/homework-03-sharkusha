@@ -61,12 +61,17 @@ public class Country {
         this.continent = continent;
         this.code = code;
         this.capital = capital;
+        addCity(capital);
     }
 
     @Override
     public String toString() {
         return "Country{" +
-                "cities=" + Arrays.toString(cities) +
+                "name='" + name + '\'' +
+                ", continent='" + continent + '\'' +
+                ", code='" + code + '\'' +
+                ", capital=" + capital +
+                ", cities=" + Arrays.toString(cities) +
                 '}';
     }
 
